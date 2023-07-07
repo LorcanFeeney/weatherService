@@ -55,51 +55,51 @@ VALUES
 
 -- Insert a sample weather measurement from Rainfall Sensor 1 Limerick
 INSERT INTO measurements (time, sensor_id, location, rainfall)
-VALUES ('2023-06-30 10:00:00', 1, 'Limerick', 12.5);
+VALUES ('2023-07-06 10:00:00', 1, 'Limerick', 12.5);
 
 -- Insert a sample weather measurement from Temperature Sensor 1 Limerick
 INSERT INTO measurements (time, sensor_id, location, temperature)
-VALUES ('2023-06-30 10:00:00', 2, 'Limerick', 25.5);
+VALUES ('2023-07-06 10:00:00', 2, 'Limerick', 25.5);
 
 -- Insert a sample weather measurement from Wind Sensor 1 Limerick
 INSERT INTO measurements (time, sensor_id, location, wind_speed)
-VALUES ('2023-06-30 10:00:00', 3, 'Limerick', 10.2);
+VALUES ('2023-07-06 10:00:00', 3, 'Limerick', 10.2);
 
 -- Insert a sample weather measurement from Rainfall Sensor 2 Galway
 INSERT INTO measurements (time, sensor_id, location, rainfall)
-VALUES ('2023-06-30 10:00:00', 4, 'Galway', 8.2);
+VALUES ('2023-07-06 10:00:00', 4, 'Galway', 8.2);
 
 -- Insert a sample weather measurement from Temperature Sensor 2 Galway
 INSERT INTO measurements (time, sensor_id, location, temperature)
-VALUES ('2023-06-30 10:00:00', 5, 'Galway', 24.8);
+VALUES ('2023-07-06 10:00:00', 5, 'Galway', 24.8);
 
 -- Insert a sample weather measurement from Wind Sensor 2 Galway
 INSERT INTO measurements (time, sensor_id, location, wind_speed)
-VALUES ('2023-06-30 10:00:00', 6, 'Galway', 9.5);
+VALUES ('2023-07-06 10:00:00', 6, 'Galway', 9.5);
 
 -- Insert a sample weather measurement from Rainfall Sensor 3 Dublin
 INSERT INTO measurements (time, sensor_id, location, rainfall)
-VALUES ('2023-06-30 10:00:00', 7, 'Dublin', 10.2);
+VALUES ('2023-07-06 10:00:00', 7, 'Dublin', 10.2);
 
 -- Insert a sample weather measurement from Temperature Sensor 3 Dublin
 INSERT INTO measurements (time, sensor_id, location, temperature)
-VALUES ('2023-06-30 10:00:00', 8, 'Dublin', 25.5);
+VALUES ('2023-07-06 10:00:00', 8, 'Dublin', 25.5);
 
 -- Insert a sample weather measurement from Wind Sensor 3 Dublin
 INSERT INTO measurements (time, sensor_id, location, wind_speed)
-VALUES ('2023-06-30 10:00:00', 9, 'Dublin', 10.2);
+VALUES ('2023-07-06 10:00:00', 9, 'Dublin', 10.2);
 
 -- Insert a sample weather measurement from Rainfall Sensor 4 Cork
 INSERT INTO measurements (time, sensor_id, location, rainfall)
-VALUES ('2023-06-30 10:00:00', 10, 'Cork', 8.2);
+VALUES ('2023-07-06 10:00:00', 10, 'Cork', 8.2);
 
 -- Insert a sample weather measurement from Temperature Sensor 4 Cork
 INSERT INTO measurements (time, sensor_id, location, temperature)
-VALUES ('2023-06-30 10:00:00', 11, 'Cork', 24.8);
+VALUES ('2023-07-06 10:00:00', 11, 'Cork', 24.8);
 
 -- Insert a sample weather measurement from Wind Sensor 4 Cork
 INSERT INTO measurements (time, sensor_id, location, wind_speed)
-VALUES ('2023-06-30 10:00:00', 12, 'Cork', 9.5);
+VALUES ('2023-07-06 10:00:00', 12, 'Cork', 9.5);
 
 
 NOTE: make sure to change the data source credentials in the application properties file to the details you have set in your database.
