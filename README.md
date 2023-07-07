@@ -102,7 +102,7 @@ INSERT INTO measurements (time, sensor_id, location, wind_speed)
 VALUES ('2023-06-30 10:00:00', 12, 'Cork', 9.5);
 
 
-NOTE: make sure to change the data source properties in the application properties file. 
+NOTE: make sure to change the data source credentials in the application properties file to the details you have set in your database.
 
 Once the application is connected to the data source and running, you can try to run the following in Insomnia or Postman:
 
